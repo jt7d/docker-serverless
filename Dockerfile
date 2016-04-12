@@ -7,7 +7,7 @@ FROM mhart/alpine-node:base-4
 # And then remove them afterwards!
 
 # To add node dependencies, do "npm install" here before building,
-# then can just use a :base image.
+# then can just use a :base image. 
 WORKDIR /src
 ADD . .
 
